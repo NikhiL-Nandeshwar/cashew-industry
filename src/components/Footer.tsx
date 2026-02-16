@@ -17,14 +17,14 @@ export default function Footer() {
               </div>
               <h3 className="text-3xl font-semibold text-[#fff4e4]">RR Cashew Industries</h3>
             </div>
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#d9c6ad] md:text-base">
+            <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-[#d9c6ad] md:text-base">
               Premium cashew processing company based in Kolhapur, serving domestic and export buyers with consistent grading, secure packaging,
               and timely dispatch.
             </p>
           </div>
           <div>
             <h4 className="text-xl font-semibold text-[#fff4e4]">Quick Links</h4>
-            <div className="mt-4 flex flex-col gap-2 text-sm">
+            <div className="mt-4 flex flex-col gap-2 text-[15px] md:text-base">
               <Link href="/" className="hover:text-white">
                 Home
               </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="text-xl font-semibold text-[#fff4e4]">Reach Us</h4>
-            <div className="mt-4 space-y-2 text-sm">
+            <div className="mt-4 space-y-2 text-[15px] md:text-base">
               <p>Manganur, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
               <a href="tel:+919876543210" className="block hover:text-white">
                 +91 98765 43210

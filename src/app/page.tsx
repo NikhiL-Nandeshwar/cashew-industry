@@ -56,7 +56,7 @@ export default function Home() {
             {strengths.map((item) => (
               <article key={item.title} className="premium-card rounded-2xl p-6">
                 <h2 className="text-2xl text-[#4f2f15]">{item.title}</h2>
-                <p className="mt-3 text-sm text-[#635746] md:text-base">{item.copy}</p>
+                <p className="mt-3 text-[15px] text-[#635746] md:text-base">{item.copy}</p>
               </article>
             ))}
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
               {highlights.map((item) => (
                 <div key={item.grade} className="rounded-xl border border-[#e5d7c3] bg-[#fffaf0] p-4">
                   <p className="text-2xl text-[#5b3719]">{item.grade}</p>
-                  <p className="mt-1 text-sm text-[#6a5a46] md:text-base">{item.use}</p>
+                  <p className="mt-1 text-[15px] text-[#6a5a46] md:text-base">{item.use}</p>
                 </div>
               ))}
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="relative p-7 md:p-10">
               <p className="text-xs uppercase tracking-[0.24em] text-[#866846]">Process View</p>
               <h3 className="mt-3 text-3xl text-[#4f2f15]">From source to sealed pack</h3>
-              <ol className="mt-6 space-y-3 text-sm text-[#665846] md:text-base">
+              <ol className="mt-6 space-y-3 text-[15px] text-[#665846] md:text-base">
                 <li>1. Raw lot screening and procurement approval.</li>
                 <li>2. Controlled drying, shelling, peeling, and grading.</li>
                 <li>3. Batch-level quality checks and moisture validation.</li>

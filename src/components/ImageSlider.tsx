@@ -64,7 +64,7 @@ export default function ImageSlider() {
           <div className="w-full p-6 md:p-14">
             <p className="text-xs uppercase tracking-[0.24em] text-[#f2d8b3] md:text-sm">{slides[active].eyebrow}</p>
             <h2 className="mt-3 max-w-3xl text-4xl leading-[0.95] text-[#fff4e4] md:text-6xl">{slides[active].title}</h2>
-            <p className="mt-5 max-w-2xl text-sm text-[#efe3d3] md:text-lg">{slides[active].description}</p>
+            <p className="mt-5 max-w-2xl text-[15px] text-[#efe3d3] md:text-lg">{slides[active].description}</p>
             <div className="mt-8 flex items-center gap-4">
               <Link
                 href={slides[active].href}

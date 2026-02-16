@@ -43,7 +43,7 @@ export default function About() {
           <h1 className="mt-4 max-w-4xl text-4xl leading-[1] text-[#4f2f15] md:text-6xl">
             Built to deliver premium cashew quality with operational reliability.
           </h1>
-          <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
+          <p className="mt-6 max-w-3xl text-[15px] text-[#685845] md:text-lg">
             Based in Manganur, Tal. Kagal, Kolhapur, we are a focused cashew processor serving domestic and international buyers who need consistent
             quality, practical communication, and dependable order execution.
           </p>
@@ -55,7 +55,7 @@ export default function About() {
           {pillars.map((pillar) => (
             <article key={pillar.title} className="premium-card rounded-2xl p-7">
               <h2 className="text-3xl text-[#4f2f15]">{pillar.title}</h2>
-              <p className="mt-3 text-sm text-[#665846] md:text-base">{pillar.copy}</p>
+              <p className="mt-3 text-[15px] text-[#665846] md:text-base">{pillar.copy}</p>
             </article>
           ))}
         </div>
@@ -68,7 +68,7 @@ export default function About() {
             {stats.map((item) => (
               <div key={item.label} className="rounded-xl border border-[#e2d3be] bg-[#fffaf1] p-5">
                 <p className="text-3xl text-[#6a421f] md:text-4xl">{item.value}</p>
-                <p className="mt-1 text-sm text-[#6d5f4d]">{item.label}</p>
+                <p className="mt-1 text-[15px] text-[#6d5f4d]">{item.label}</p>
               </div>
             ))}
           </div>
@@ -79,18 +79,18 @@ export default function About() {
         <div className="grid gap-8 lg:grid-cols-2">
           <article className="premium-card rounded-[28px] p-8">
             <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Our Story</h2>
-            <p className="mt-4 text-sm text-[#665846] md:text-base">
+            <p className="mt-4 text-[15px] text-[#665846] md:text-base">
               RR Cashew Industries was established to bridge a clear gap in the market: buyers needed a processing partner that could combine quality
               intent with execution consistency. Since 2020, we have focused on building process rigor instead of shortcuts.
             </p>
-            <p className="mt-4 text-sm text-[#665846] md:text-base">
+            <p className="mt-4 text-[15px] text-[#665846] md:text-base">
               We continue to strengthen our systems, team capability, and customer support to ensure long-term trust with every buyer relationship we
               build.
             </p>
           </article>
           <article className="premium-card rounded-[28px] p-8">
             <h2 className="text-3xl text-[#4f2f15] md:text-4xl">How We Measure Success</h2>
-            <ul className="mt-5 space-y-3 text-sm text-[#665846] md:text-base">
+            <ul className="mt-5 space-y-3 text-[15px] text-[#665846] md:text-base">
               <li>1. Repeat order confidence from existing customers.</li>
               <li>2. Grade and quality consistency across recurring lots.</li>
               <li>3. Predictable delivery performance with clear planning.</li>

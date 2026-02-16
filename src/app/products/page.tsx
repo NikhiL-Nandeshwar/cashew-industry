@@ -69,7 +69,7 @@ export default function Products() {
         <div className="rounded-[30px] border border-[#d9c5ab] bg-[linear-gradient(130deg,#fff9ef,#f4e8d5)] p-8 md:p-14">
           <p className="text-xs uppercase tracking-[0.24em] text-[#8a6b49]">Product Catalog</p>
           <h1 className="mt-4 max-w-4xl text-4xl leading-[1] text-[#4f2f15] md:text-6xl">Commercial-grade cashew portfolio for serious supply needs.</h1>
-          <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
+          <p className="mt-6 max-w-3xl text-[15px] text-[#685845] md:text-lg">
             Our range covers whole kernels, split grades, and value-oriented pieces for retail, food service, and industrial processing buyers.
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function Products() {
               </div>
               <div className="p-5">
                 <h2 className="text-xl text-[#4f2f15] md:text-2xl">{item.title}</h2>
-                <p className="mt-1 text-sm text-[#6a5a46]">{item.subtitle}</p>
+                <p className="mt-1 text-[15px] text-[#6a5a46]">{item.subtitle}</p>
               </div>
             </article>
           ))}
@@ -93,7 +93,7 @@ export default function Products() {
         {productGroups.map((group) => (
           <article key={group.title} className="premium-card rounded-[28px] p-8 md:p-10">
             <h2 className="text-3xl text-[#4f2f15] md:text-4xl">{group.title}</h2>
-            <p className="mt-2 text-sm text-[#665846] md:text-base">{group.intro}</p>
+            <p className="mt-2 text-[15px] text-[#665846] md:text-base">{group.intro}</p>
             <div className="mt-6 overflow-x-auto rounded-xl border border-[#e2d3be]">
               <table className="w-full min-w-[580px] border-collapse text-left">
                 <thead className="bg-[#f4e7d4] text-sm text-[#5c3c20]">
@@ -103,7 +103,7 @@ export default function Products() {
                     <th className="px-4 py-3 font-semibold">Best Fit</th>
                   </tr>
                 </thead>
-                <tbody className="text-sm text-[#5f5343] md:text-base">
+                <tbody className="text-[15px] text-[#5f5343] md:text-base">
                   {group.items.map((item) => (
                     <tr key={item.grade} className="border-t border-[#efe2d0] bg-[#fffaf2]">
                       <td className="px-4 py-3 font-semibold text-[#5b3719]">{item.grade}</td>
@@ -122,7 +122,7 @@ export default function Products() {
         <div className="grid gap-8 lg:grid-cols-2">
           <article className="premium-card rounded-[28px] p-8">
             <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Packaging & Dispatch</h2>
-            <ul className="mt-5 space-y-3 text-sm text-[#665846] md:text-base">
+            <ul className="mt-5 space-y-3 text-[15px] text-[#665846] md:text-base">
               {packaging.map((item) => (
                 <li key={item}>1. {item}</li>
               ))}
@@ -130,7 +130,7 @@ export default function Products() {
           </article>
           <article className="rounded-[28px] border border-[#d5bf9f] bg-[#6b421f] p-8 text-[#f6ead7]">
             <h2 className="text-3xl text-[#fff4e4] md:text-4xl">Need exact specs and pricing?</h2>
-            <p className="mt-4 text-sm md:text-base">
+            <p className="mt-4 text-[15px] md:text-base">
               Share your required grades, monthly volume, destination, and packaging preference. We will send a business quote suited to your demand
               profile.
             </p>
