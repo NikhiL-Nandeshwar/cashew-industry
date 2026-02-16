@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold text-[#fff4e4]">Reach Us</h4>
             <div className="mt-4 space-y-2 text-sm">
-              <p>Mangnoor, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
+              <p>Manganur, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
               <a href="tel:+919876543210" className="block hover:text-white">
                 +91 98765 43210
               </a>

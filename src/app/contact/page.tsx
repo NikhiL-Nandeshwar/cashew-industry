@@ -19,8 +19,8 @@ const channels = [
   },
   {
     title: 'Factory Location',
-    detail: 'Mangnoor, Tal. Kagal, Kolhapur, Maharashtra 416236',
-    link: 'https://maps.google.com/?q=Mangnoor+Kagal+Kolhapur',
+    detail: 'Manganur, Tal. Kagal, Kolhapur, Maharashtra 416236',
+    link: 'https://maps.google.com/?q=Manganur+Kagal+Kolhapur',
   },
 ];
 
@@ -141,11 +141,11 @@ export default function Contact() {
       <section className="shell">
         <article className="premium-card rounded-[28px] p-6 md:p-8">
           <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Factory Location</h2>
-          <p className="mt-2 text-sm text-[#665846] md:text-base">Mangnoor, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
+          <p className="mt-2 text-sm text-[#665846] md:text-base">Manganur, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
           <div className="mt-5 overflow-hidden rounded-2xl border border-[#dccbb4]">
             <iframe
               title="RR Cashew Industries Location Map"
-              src="https://maps.google.com/maps?q=Mangnoor%2C%20Tal.%20Kagal%2C%20Kolhapur%2C%20Maharashtra%20416236&z=15&output=embed"
+              src="https://maps.google.com/maps?q=Manganur%2C%20Tal.%20Kagal%2C%20Kolhapur%2C%20Maharashtra%20416236&z=15&output=embed"
               width="100%"
               height="420"
               loading="lazy"

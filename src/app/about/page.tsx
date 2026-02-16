@@ -44,7 +44,7 @@ export default function About() {
             Built to deliver premium cashew quality with operational reliability.
           </h1>
           <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
-            Based in Mangnoor, Tal. Kagal, Kolhapur, we are a focused cashew processor serving domestic and international buyers who need consistent
+            Based in Manganur, Tal. Kagal, Kolhapur, we are a focused cashew processor serving domestic and international buyers who need consistent
             quality, practical communication, and dependable order execution.
           </p>
         </div>

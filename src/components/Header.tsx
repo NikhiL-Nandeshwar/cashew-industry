@@ -34,7 +34,7 @@ export default function Header() {
               priority
             />
             <div>
-              <p className="text-[11px] uppercase tracking-[0.22em] text-[#8b7a63]">Managanur, Maharashtra</p>
+              <p className="text-[11px] uppercase tracking-[0.22em] text-[#8b7a63]">Manganur, Maharashtra</p>
               <h1 className="text-[21px] leading-none text-[#4f2f15] md:text-[30px]">RR Cashew Industries</h1>
             </div>
           </Link>
