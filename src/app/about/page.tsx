@@ -40,7 +40,7 @@ export default function About() {
       <section className="shell">
         <div className="rounded-[30px] border border-[#d9c5ab] bg-[linear-gradient(130deg,#fff9ef,#f4e8d5)] p-8 md:p-14">
           <p className="text-xs uppercase tracking-[0.24em] text-[#8a6b49]">About RR Cashew Industries</p>
-          <h1 className="mt-4 max-w-4xl text-5xl leading-[0.95] text-[#4f2f15] md:text-7xl">
+          <h1 className="mt-4 max-w-4xl text-4xl leading-[1] text-[#4f2f15] md:text-6xl">
             Built to deliver premium cashew quality with operational reliability.
           </h1>
           <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
@@ -67,7 +67,7 @@ export default function About() {
           <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((item) => (
               <div key={item.label} className="rounded-xl border border-[#e2d3be] bg-[#fffaf1] p-5">
-                <p className="text-4xl text-[#6a421f]">{item.value}</p>
+                <p className="text-3xl text-[#6a421f] md:text-4xl">{item.value}</p>
                 <p className="mt-1 text-sm text-[#6d5f4d]">{item.label}</p>
               </div>
             ))}
@@ -78,7 +78,7 @@ export default function About() {
       <section className="shell">
         <div className="grid gap-8 lg:grid-cols-2">
           <article className="premium-card rounded-[28px] p-8">
-            <h2 className="text-4xl text-[#4f2f15]">Our Story</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Our Story</h2>
             <p className="mt-4 text-sm text-[#665846] md:text-base">
               RR Cashew Industries was established to bridge a clear gap in the market: buyers needed a processing partner that could combine quality
               intent with execution consistency. Since 2020, we have focused on building process rigor instead of shortcuts.
@@ -89,7 +89,7 @@ export default function About() {
             </p>
           </article>
           <article className="premium-card rounded-[28px] p-8">
-            <h2 className="text-4xl text-[#4f2f15]">How We Measure Success</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">How We Measure Success</h2>
             <ul className="mt-5 space-y-3 text-sm text-[#665846] md:text-base">
               <li>1. Repeat order confidence from existing customers.</li>
               <li>2. Grade and quality consistency across recurring lots.</li>

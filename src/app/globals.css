@@ -33,7 +33,7 @@
   h2,
   h3,
   h4 {
-    font-family: var(--font-display), sans-serif;
+    font-family: var(--font-body), sans-serif;
     font-weight: 400;
     letter-spacing: 0;
   }
@@ -57,7 +57,7 @@
   }
 
   .section-title {
-    @apply text-4xl leading-tight md:text-5xl;
+    @apply text-3xl leading-tight md:text-5xl;
     color: var(--brand-strong);
   }
 

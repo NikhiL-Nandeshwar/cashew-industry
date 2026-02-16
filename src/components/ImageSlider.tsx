@@ -53,17 +53,17 @@ export default function ImageSlider() {
             style={{ zIndex: index === active ? 1 : 0 }}
           >
             <div
-              className="h-[74vh] min-h-[520px] w-full bg-cover bg-center md:h-[78vh]"
+              className="h-[65vh] min-h-[420px] w-full bg-cover bg-center md:h-[78vh] md:min-h-[520px]"
               style={{ backgroundImage: `url(${slide.image})` }}
             />
             <div className="hero-sheen absolute inset-0" />
           </div>
         ))}
 
-        <div className="relative z-10 flex min-h-[520px] h-[74vh] items-end md:h-[78vh]">
-          <div className="w-full p-8 md:p-14">
+        <div className="relative z-10 flex h-[65vh] min-h-[420px] items-end md:h-[78vh] md:min-h-[520px]">
+          <div className="w-full p-6 md:p-14">
             <p className="text-xs uppercase tracking-[0.24em] text-[#f2d8b3] md:text-sm">{slides[active].eyebrow}</p>
-            <h2 className="mt-3 max-w-3xl text-5xl leading-[0.95] text-[#fff4e4] md:text-7xl">{slides[active].title}</h2>
+            <h2 className="mt-3 max-w-3xl text-4xl leading-[0.95] text-[#fff4e4] md:text-6xl">{slides[active].title}</h2>
             <p className="mt-5 max-w-2xl text-sm text-[#efe3d3] md:text-lg">{slides[active].description}</p>
             <div className="mt-8 flex items-center gap-4">
               <Link

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
@@ -24,20 +25,17 @@ export default function Header() {
       <div className="shell">
         <div className="flex h-24 items-center justify-between">
           <Link href="/" className="group flex items-center gap-4">
-            <div className="rounded-full border border-[#c9ad88] bg-[#7a4b20] p-3 text-white shadow-lg shadow-[#7a4b20]/25 transition duration-300 group-hover:-translate-y-0.5">
-              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.8}
-                  d="M6 8a6 6 0 0112 0c0 5-3 9-6 9s-6-4-6-9z"
-                />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M12 7v5" />
-              </svg>
-            </div>
+            <Image
+              src="/images/logo.png"
+              alt="RR Cashew Industries logo"
+              width={58}
+              height={58}
+              className="h-[58px] w-[58px] object-contain transition duration-300 group-hover:-translate-y-0.5"
+              priority
+            />
             <div>
               <p className="text-[11px] uppercase tracking-[0.22em] text-[#8b7a63]">Managanur, Maharashtra</p>
-              <h1 className="text-[24px] font-semibold leading-none text-[#4f2f15] md:text-[30px]">RR Cashew Industries</h1>
+              <h1 className="text-[21px] leading-none text-[#4f2f15] md:text-[30px]">RR Cashew Industries</h1>
             </div>
           </Link>
 

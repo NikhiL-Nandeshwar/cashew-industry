@@ -36,7 +36,7 @@ export default function Contact() {
       <section className="shell">
         <div className="rounded-[30px] border border-[#d9c5ab] bg-[linear-gradient(130deg,#fff9ef,#f4e8d5)] p-8 md:p-14">
           <p className="text-xs uppercase tracking-[0.24em] text-[#8a6b49]">Contact RR Cashew Industries</p>
-          <h1 className="mt-4 max-w-4xl text-5xl leading-[0.95] text-[#4f2f15] md:text-7xl">Contact our cashew sales team for bulk pricing and grade availability.</h1>
+          <h1 className="mt-4 max-w-4xl text-4xl leading-[1] text-[#4f2f15] md:text-6xl">Contact our cashew sales team for bulk pricing and grade availability.</h1>
           <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
             For business enquiries, share your preferred grades, order volume, packaging type, and destination. Our team replies quickly with practical
             commercial details.
@@ -79,7 +79,7 @@ export default function Contact() {
       <section className="shell">
         <div className="grid gap-8 lg:grid-cols-2">
           <article className="premium-card rounded-[28px] p-8">
-            <h2 className="text-4xl text-[#4f2f15]">Fast Order Flow</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Fast Order Flow</h2>
             <p className="mt-3 text-sm text-[#665846] md:text-base">
               Most vendors close faster on call or WhatsApp. Share your requirement in 4 points and get a practical quote quickly.
             </p>
@@ -113,7 +113,7 @@ export default function Contact() {
             </div>
           </article>
           <article className="premium-card rounded-[28px] p-8">
-            <h2 className="text-4xl text-[#4f2f15]">Bulk Order Support</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Bulk Order Support</h2>
             <ul className="mt-5 space-y-3 text-sm text-[#665846] md:text-base">
               <li>1. Grade guidance for your use-case and price range.</li>
               <li>2. Volume-based commercial quotes.</li>
@@ -122,7 +122,7 @@ export default function Contact() {
             </ul>
           </article>
           <article className="rounded-[28px] border border-[#d5bf9f] bg-[#6b421f] p-8 text-[#f6ead7] lg:col-start-2">
-            <h2 className="text-4xl text-[#fff4e4]">Business Hours</h2>
+            <h2 className="text-3xl text-[#fff4e4] md:text-4xl">Business Hours</h2>
             <div className="mt-5 space-y-3 text-sm md:text-base">
               <p>Monday to Friday: 9:00 AM to 6:00 PM</p>
               <p>Saturday: 9:00 AM to 4:00 PM</p>
@@ -140,7 +140,7 @@ export default function Contact() {
 
       <section className="shell">
         <article className="premium-card rounded-[28px] p-6 md:p-8">
-          <h2 className="text-4xl text-[#4f2f15]">Factory Location</h2>
+          <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Factory Location</h2>
           <p className="mt-2 text-sm text-[#665846] md:text-base">Mangnoor, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
           <div className="mt-5 overflow-hidden rounded-2xl border border-[#dccbb4]">
             <iframe

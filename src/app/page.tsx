@@ -124,7 +124,7 @@ export default function Home() {
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div>
               <p className="text-xs uppercase tracking-[0.24em] text-[#8f6f4d]">Work With Us</p>
-              <h2 className="mt-3 text-5xl leading-[0.95] text-[#4f2f15] md:text-6xl">Need a dependable cashew supply partner?</h2>
+              <h2 className="mt-3 text-4xl leading-[1] text-[#4f2f15] md:text-6xl">Need a dependable cashew supply partner?</h2>
             </div>
             <div>
               <p className="body-copy">

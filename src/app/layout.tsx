@@ -1,14 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter, Manrope } from 'next/font/google';
+import { Manrope } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-
-const displayFont = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  variable: '--font-display',
-});
 
 const bodyFont = Manrope({
   subsets: ['latin'],
@@ -51,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${displayFont.variable} ${bodyFont.variable}`}>
+      <body className={bodyFont.variable}>
         <Header />
         <main className="min-h-screen pt-24">{children}</main>
         <Footer />

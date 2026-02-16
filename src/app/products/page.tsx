@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 const productGroups = [
   {
@@ -31,6 +32,24 @@ const packaging = [
   'Custom pack format by order volume',
 ];
 
+const visualCategories = [
+  {
+    title: 'Premium Whole Kernels',
+    subtitle: 'W180 / W240 / W320',
+    image: '/images/cashew-premium.jpg',
+  },
+  {
+    title: 'Natural Processed Cashews',
+    subtitle: 'Bulk and trade supply',
+    image: '/images/cashew-raw.jpg',
+  },
+  {
+    title: 'Ready Product Finishes',
+    subtitle: 'Retail and food-service fit',
+    image: '/images/cashew-salted.jpg',
+  },
+];
+
 export const metadata: Metadata = {
   title: 'Cashew Grades and Product Range | RR Cashew Industries',
   description:
@@ -49,7 +68,7 @@ export default function Products() {
       <section className="shell">
         <div className="rounded-[30px] border border-[#d9c5ab] bg-[linear-gradient(130deg,#fff9ef,#f4e8d5)] p-8 md:p-14">
           <p className="text-xs uppercase tracking-[0.24em] text-[#8a6b49]">Product Catalog</p>
-          <h1 className="mt-4 max-w-4xl text-5xl leading-[0.95] text-[#4f2f15] md:text-7xl">Commercial-grade cashew portfolio for serious supply needs.</h1>
+          <h1 className="mt-4 max-w-4xl text-4xl leading-[1] text-[#4f2f15] md:text-6xl">Commercial-grade cashew portfolio for serious supply needs.</h1>
           <p className="mt-6 max-w-3xl text-sm text-[#685845] md:text-lg">
             Our range covers whole kernels, split grades, and value-oriented pieces for retail, food service, and industrial processing buyers.
           </p>
@@ -57,9 +76,23 @@ export default function Products() {
       </section>
 
       <section className="shell space-y-8">
+        <div className="grid gap-6 md:grid-cols-3">
+          {visualCategories.map((item) => (
+            <article key={item.title} className="premium-card overflow-hidden rounded-[24px] p-0">
+              <div className="relative h-64 w-full md:h-72">
+                <Image src={item.image} alt={item.title} fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <h2 className="text-xl text-[#4f2f15] md:text-2xl">{item.title}</h2>
+                <p className="mt-1 text-sm text-[#6a5a46]">{item.subtitle}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+
         {productGroups.map((group) => (
           <article key={group.title} className="premium-card rounded-[28px] p-8 md:p-10">
-            <h2 className="text-4xl text-[#4f2f15]">{group.title}</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">{group.title}</h2>
             <p className="mt-2 text-sm text-[#665846] md:text-base">{group.intro}</p>
             <div className="mt-6 overflow-x-auto rounded-xl border border-[#e2d3be]">
               <table className="w-full min-w-[580px] border-collapse text-left">
@@ -88,7 +121,7 @@ export default function Products() {
       <section className="shell">
         <div className="grid gap-8 lg:grid-cols-2">
           <article className="premium-card rounded-[28px] p-8">
-            <h2 className="text-4xl text-[#4f2f15]">Packaging & Dispatch</h2>
+            <h2 className="text-3xl text-[#4f2f15] md:text-4xl">Packaging & Dispatch</h2>
             <ul className="mt-5 space-y-3 text-sm text-[#665846] md:text-base">
               {packaging.map((item) => (
                 <li key={item}>1. {item}</li>
@@ -96,7 +129,7 @@ export default function Products() {
             </ul>
           </article>
           <article className="rounded-[28px] border border-[#d5bf9f] bg-[#6b421f] p-8 text-[#f6ead7]">
-            <h2 className="text-4xl text-[#fff4e4]">Need exact specs and pricing?</h2>
+            <h2 className="text-3xl text-[#fff4e4] md:text-4xl">Need exact specs and pricing?</h2>
             <p className="mt-4 text-sm md:text-base">
               Share your required grades, monthly volume, destination, and packaging preference. We will send a business quote suited to your demand
               profile.

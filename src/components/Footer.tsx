@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -10,7 +11,12 @@ export default function Footer() {
       <div className="shell py-14">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-semibold text-[#fff4e4]">RR Cashew Industries</h3>
+            <div className="flex items-center gap-3">
+              <div className="rounded-full bg-[#f6ead8] shadow-[0_6px_16px_rgba(0,0,0,0.35)] ring-1 ring-[#c9a97d]/70">
+                <Image src="/images/logo.png" alt="RR Cashew Industries logo" width={44} height={44} className="h-[44px] w-[44px] object-contain" />
+              </div>
+              <h3 className="text-3xl font-semibold text-[#fff4e4]">RR Cashew Industries</h3>
+            </div>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#d9c6ad] md:text-base">
               Premium cashew processing company based in Kolhapur, serving domestic and export buyers with consistent grading, secure packaging,
               and timely dispatch.
