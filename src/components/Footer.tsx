@@ -54,6 +54,12 @@ export default function Footer() {
         </div>
         <div className="mt-10 border-t border-[#4c3828] pt-6 text-xs text-[#c9b59c] md:text-sm">
           <p>&copy; {currentYear} RR Cashew Industries. All rights reserved.</p>
+          <p className="mt-2">
+            Managed by{' '}
+            <a href="http://nexspiretechnologies.in/" className="text-[#ecdcc7] hover:text-white">
+              Nexspire Technologies
+            </a>
+          </p>
         </div>
       </div>
     </footer>
