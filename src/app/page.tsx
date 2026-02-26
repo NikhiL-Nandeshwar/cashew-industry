@@ -139,10 +139,10 @@ export default function Home() {
                   Request Business Quote
                 </Link>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919765643137"
                   className="rounded-full border border-[#b08956] px-6 py-3 text-sm font-semibold text-[#6a421f] transition hover:bg-[#f4e7d4]"
                 >
-                  Call +91 98765 43210
+                  Call +91 97656 43137
                 </a>
               </div>
             </div>

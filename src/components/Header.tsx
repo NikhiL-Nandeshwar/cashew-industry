@@ -36,6 +36,7 @@ export default function Header() {
             <div>
               <p className="text-[11px] uppercase tracking-[0.22em] text-[#8b7a63]">Manganur, Maharashtra</p>
               <h1 className="text-[21px] leading-none text-[#4f2f15] md:text-[30px]">RR Cashew Industries</h1>
+              <p className="mt-1 text-[10px] leading-none text-[#8b7a63] md:text-[11px]">GSTIN: 27BDDPT2171A1ZU</p>
             </div>
           </Link>
 
@@ -59,7 +60,7 @@ export default function Header() {
           </nav>
 
           <a
-            href="tel:+919876543210"
+            href="tel:+919765643137"
             className="hidden rounded-full border border-[#7a4b20] bg-[#7a4b20] px-6 py-2.5 text-sm font-semibold tracking-wide text-[#fff9f0] transition duration-300 hover:bg-[#633a18] md:inline-flex"
           >
             Call Sales
@@ -96,7 +97,7 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <a href="tel:+919876543210" className="block rounded-lg bg-[#7a4b20] px-3 py-2 text-center text-sm font-semibold text-white">
+            <a href="tel:+919765643137" className="block rounded-lg bg-[#7a4b20] px-3 py-2 text-center text-sm font-semibold text-white">
               Call Sales
             </a>
           </nav>

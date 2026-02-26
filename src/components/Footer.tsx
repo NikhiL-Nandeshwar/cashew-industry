@@ -43,8 +43,9 @@ export default function Footer() {
             <h4 className="text-xl font-semibold text-[#fff4e4]">Reach Us</h4>
             <div className="mt-4 space-y-2 text-[15px] md:text-base">
               <p>Manganur, Tal. Kagal, Kolhapur, Maharashtra 416236</p>
-              <a href="tel:+919876543210" className="block hover:text-white">
-                +91 98765 43210
+              <p>GSTIN: 27BDDPT2171A1ZU</p>
+              <a href="tel:+919765643137" className="block hover:text-white">
+                +91 97656 43137
               </a>
               <a href="mailto:sales@rrcashew.com" className="block hover:text-white">
                 sales@rrcashew.com

@@ -4,13 +4,13 @@ import Link from 'next/link';
 const channels = [
   {
     title: 'Call Sales',
-    detail: '+91 98765 43210',
-    link: 'tel:+919876543210',
+    detail: '+91 97656 43137',
+    link: 'tel:+919765643137',
   },
   {
     title: 'WhatsApp Orders',
-    detail: '+91 98765 43210',
-    link: 'https://wa.me/919876543210?text=Hello%20RR%20Cashew%20Industries%2C%20I%20need%20pricing%20for%20bulk%20cashew%20grades.',
+    detail: '+91 97656 43137',
+    link: 'https://wa.me/919765643137?text=Hello%20RR%20Cashew%20Industries%2C%20I%20need%20pricing%20for%20bulk%20cashew%20grades.',
   },
   {
     title: 'Email',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <div className="space-y-16 pb-20 pt-8 md:space-y-24">
+    <div className="space-y-16 pb-20 pt-8 md:space-y-14">
       <section className="shell">
         <div className="rounded-[30px] border border-[#d9c5ab] bg-[linear-gradient(130deg,#fff9ef,#f4e8d5)] p-8 md:p-14">
           <p className="text-xs uppercase tracking-[0.24em] text-[#8a6b49]">Contact RR Cashew Industries</p>
@@ -59,20 +59,27 @@ export default function Contact() {
       </section>
 
       <section className="shell">
-        <div className="grid gap-6 lg:grid-cols-3">
-          {channels.map((channel) => (
-            <article key={channel.title} className="premium-card rounded-2xl p-7">
-              <h2 className="text-3xl text-[#4f2f15]">{channel.title}</h2>
-              <a
-                href={channel.link}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-3 inline-block rounded-lg px-2 py-1 text-[15px] text-[#6a5a46] transition-colors duration-200 hover:bg-[#f1e4d1] hover:text-[#5a3517] md:text-base"
-              >
-                {channel.detail}
-              </a>
-            </article>
-          ))}
+        <div className="space-y-6">
+          <article className="premium-card rounded-2xl px-5 py-4">
+            <p className="text-[15px] text-[#6a5a46] md:text-base">
+              <span className="font-semibold text-[#4f2f15]">Business Identity :</span> GSTIN - 27BDDPT2171A1ZU
+            </p>
+          </article>
+          <div className="grid gap-6 lg:grid-cols-3">
+            {channels.map((channel) => (
+              <article key={channel.title} className="premium-card rounded-2xl p-7">
+                <h2 className="text-3xl text-[#4f2f15]">{channel.title}</h2>
+                <a
+                  href={channel.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block rounded-lg px-2 py-1 text-[15px] text-[#6a5a46] transition-colors duration-200 hover:bg-[#f1e4d1] hover:text-[#5a3517] md:text-base"
+                >
+                  {channel.detail}
+                </a>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -91,13 +98,13 @@ export default function Contact() {
             </ul>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+919765643137"
                 className="rounded-full border border-[#7a4b20] bg-[#7a4b20] px-6 py-3 text-sm font-semibold text-[#fff6ea] transition-colors duration-200 hover:border-[#643a18] hover:bg-[#643a18]"
               >
                 Call Sales Now
               </a>
               <a
-                href="https://wa.me/919876543210?text=Hello%20RR%20Cashew%20Industries%2C%20I%20need%20pricing%20for%20bulk%20cashew%20grades."
+                href="https://wa.me/919765643137?text=Hello%20RR%20Cashew%20Industries%2C%20I%20need%20pricing%20for%20bulk%20cashew%20grades."
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full border border-[#b08956] px-6 py-3 text-sm font-semibold text-[#6a421f] transition-colors duration-200 hover:border-[#7a4b20] hover:bg-[#7a4b20] hover:text-[#fff6ea]"
