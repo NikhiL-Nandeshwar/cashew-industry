@@ -57,7 +57,7 @@ export default function Footer() {
           <p>&copy; {currentYear} RR Cashew Industries. All rights reserved.</p>
           <p className="mt-2">
             Managed by{' '}
-            <a href="http://nexspiretechnologies.in/" className="text-[#ecdcc7] hover:text-white">
+            <a target="_blank" href="http://nexspiretechnologies.in/" className="text-[#ecdcc7] hover:text-white">
               Nexspire Technologies
             </a>
           </p>
